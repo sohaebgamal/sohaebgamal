@@ -43,6 +43,8 @@ An active builder of **custom Python tooling** that automates discovery and exte
   - **VulnScan AI** — co-designed and owned a vulnerability scanner that verifies every finding against the live target before reporting; in one real test, 38 raw results were filtered to 7 confirmed.
   - **AqarMap** — independent OWASP Top 10 web application pentest; reported authentication weaknesses and business-logic flaws with remediation guidance.
 
+✍️ **Writing:** [VulnScan-HEX — a scanner that proves, not guesses](posts/vulnscan-hex-architecture.md)
+
 🟢 Open to **remote contract / part-time** work in penetration testing, application security and security QA.
 
 ---
