@@ -1,8 +1,8 @@
 <div align="center">
 
-# Sohaeb Gamal
+# Sohaib Gamal
 
-**Security QA Engineer & Penetration Tester** &nbsp;·&nbsp; Web, API & Mobile Application Security
+**Security QA Engineer & Penetration Tester** &nbsp;·&nbsp; Web, API & Business-Logic Security
 
 Full-cycle offensive engagements — *reconnaissance → exploitation → professional reporting* — mapped to the **OWASP Top 10** and the **Cyber Kill Chain**.
 
@@ -24,18 +24,24 @@ Full-cycle offensive engagements — *reconnaissance → exploitation → profes
 
 ## 🎯 Profile
 
-Penetration Tester focused on **web application security**, with proven, hands-on experience taking engagements end-to-end: identifying and exploiting high-impact vulnerabilities, chaining them through to host and domain compromise, and communicating the results in clear, client-ready reports with CVSS ratings, proof-of-concept evidence, and prioritized remediation.
+Security QA Engineer and Penetration Tester covering **web and API products**, owning both functional QA and offensive security testing. Two independently confirmed **CRITICAL account-takeover chains** reported and tracked through remediation and retest, with hands-on experience taking engagements end-to-end: identifying and exploiting high-impact vulnerabilities, chaining them through to host and domain compromise, and delivering bilingual (Arabic/English) client-ready reports with CVSS/CWE mapping, proof-of-concept evidence, and prioritized remediation.
 
-Ranked in the **Top 2%** of TryHackMe globally across **164+** hands-on rooms, and an active builder of **custom Python tooling** that automates discovery and extends manual coverage.
+An active builder of **custom Python tooling** that automates discovery and extends manual coverage (Dagger, VulnScan AI, VulnScan-HEX, IDOR Tester).
 
 ---
 
 ## 💼 Experience
 
-- **Security QA Engineer & Penetration Tester — SmartWare** *(2025 – Present)*
-  Functional QA and offensive security testing across web, API and mobile (Android/Flutter) products: test plans, regression and retesting, plus black-box testing of access control, IDOR, authentication flows and rate limiting. Two CRITICAL account-takeover findings reported, fixed and retested.
-- **Freelance Penetration Tester — Rakaiz** *(Jul – Dec 2024)* · web & mobile application testing.
-- **Freelance Penetration Tester — Aqarmap** *(Jan – Jun 2024)* · web application & API testing, OWASP Top 10.
+- **Security QA Engineer & Penetration Tester — SmartWare Ltd** *(Jan 2025 – Jan 2026 · Full-time)*
+  Functional QA and offensive security testing for an admin/workflow platform, a payments API platform and two ride-hailing platforms (web and API).
+  - Full black-box assessments of web and API platforms: **9 findings** on one engagement (broken access control CWE-862, unauthenticated Swagger/OpenAPI exposure of ~190 endpoints CWE-200, IDOR exposing PII CWE-639, user enumeration, missing login rate-limiting), chained into **2 independently confirmed CRITICAL account-takeover paths**.
+  - Stored XSS (HIGH) on a public preview domain and CSV formula injection (CWE-1236) via exported spreadsheets.
+  - Login rate-limit and brute-force resilience testing that exposed a server capacity collapse (502) and a Redis misconfiguration.
+  - Closing all CRITICAL/HIGH findings cut the CVSS-weighted risk score by **~80%** (payments platform) and **~75%** (ride-hailing platform).
+  - Owned manual QA across 9 modules: test plans, module-level test cases, regression and retesting.
+- **Freelance Security Engineer** *(2024 – 2025)*
+  - **VulnScan AI** — co-designed and owned a vulnerability scanner that verifies every finding against the live target before reporting; in one real test, 38 raw results were filtered to 7 confirmed.
+  - **AqarMap** — independent OWASP Top 10 web application pentest; reported authentication weaknesses and business-logic flaws with remediation guidance.
 
 🟢 Open to **remote contract / part-time** work in penetration testing, application security and security QA.
 
@@ -63,6 +69,7 @@ Ranked in the **Top 2%** of TryHackMe globally across **164+** hands-on rooms, a
   <img src="https://img.shields.io/badge/Impacket-4B275F?style=flat-square"/>
   <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ffuf-000000?style=flat-square"/>
   <img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white"/>
 </p>
 <p>
@@ -117,22 +124,23 @@ Ranked in the **Top 2%** of TryHackMe globally across **164+** hands-on rooms, a
 
 ## 🔬 Custom Tooling Highlights
 
-- **Dagger** — password-reset flow auditor: detects tokens leaked in API responses, scores token entropy to flag brute-forceable values, checks user enumeration & rate-limiting, and emits ready-to-run `crunch`/`ffuf`/`hydra` recipes.
+- **VulnScan-HEX** — modular web vulnerability scanner in Python built on Hexagonal Architecture (Ports & Adapters). The core only judges evidence (request/response), so findings are verified rather than pattern-matched; 15 scanners aligned with OWASP Top 10:2025 (SQLi, XSS, SSRF, SSTI, RCE, JWT, GraphQL), local AI reporting via Ollama, 30 unit tests.
+- **Dagger** — authentication and rate-limit testing platform; its password-reset auditor: detects tokens leaked in API responses, scores token entropy to flag brute-forceable values, checks user enumeration & rate-limiting, and emits ready-to-run `crunch`/`ffuf`/`hydra` recipes.
 - **VerboseLogin_UserEnum** — discovers valid accounts by diffing login error responses (auto-baseline + marker modes), producing spray-ready output.
 
 ---
 
 ## 📜 Certifications & Training
 
-- **TryHackMe — Junior Penetration Tester**
-- **CompTIA Security+** — course training completed (2024)
-- Additional: Network Penetration Testing (WiFi & Wired) · ARP/DNS spoofing & HTTPS downgrade · Social Engineering · Advanced C Programming
+- **TryHackMe — Junior Penetration Tester** *(Top 2% globally · 164 rooms · Level 12)*
+- **CompTIA Security+** — training completed; exam in preparation
+- Additional: Network Penetration Testing (WiFi & Wired) · Social Engineering awareness · Advanced C Programming
 
 ---
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/sohaeb-gamal-a14205342/"><img src="https://img.shields.io/badge/LinkedIn-Sohaeb%20Gamal-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sohaeb-gamal-a14205342/"><img src="https://img.shields.io/badge/LinkedIn-Sohaib%20Gamal-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 <a href="https://tryhackme.com/p/sohaeb"><img src="https://img.shields.io/badge/TryHackMe-sohaeb-c11111?style=flat-square&logo=tryhackme&logoColor=white"/></a>
 <a href="mailto:sebeko.1996@gmail.com"><img src="https://img.shields.io/badge/Email-sebeko.1996@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 
