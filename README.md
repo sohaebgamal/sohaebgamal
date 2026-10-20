@@ -67,7 +67,7 @@ Security QA Engineer and Penetration Tester covering **web and API products**, w
   </tr>
 </table>
 
-✍️ **Writing:** [VulnScan-HEX — a scanner that proves, not guesses](posts/vulnscan-hex-architecture.md) · [Small findings. Critical impact.](posts/small-findings-critical-impact.md)
+✍️ **Writing:** [VulnScan-HEX — a scanner that proves, not guesses](posts/vulnscan-hex-architecture.md) · [Small findings. Critical impact.](posts/small-findings-critical-impact.md) · [Is QA a good first step into pentesting?](posts/is-qa-a-good-first-step-into-pentesting.md)
 ---
 ## 🔬 Custom Tooling Highlights
 
